@@ -11,10 +11,10 @@ print('------------------------')
 print('')
 print('The rules are simple, you have unlitimed trys to gues the number')
 print('the closer you get the wormer you get')
-print("If your guess is more than 10 away from my number, I'll tell you you're COLD")
+print("If your guess is more than 10 away from my number, I'll tell you you're COLD")  # noqa: E501
 print("If your guess is within 10 of my number, I'll tell you you're WARM")
-print("If your guess is farther than your most recent guess, I'll say you're getting COLDER")
-print("If your guess is closer than your most recent guess, I'll say you're getting WARMER")
+print("If your guess is farther than your most recent guess, I'll say you're getting COLDER")  # noqa: E501
+print("If your guess is closer than your most recent guess, I'll say you're getting WARMER")  # noqa: E501
 print("LET'S PLAY!")
 
 guesses = [0]
@@ -27,7 +27,7 @@ while True:
         continue
 
     if guess == machineNumber:
-        print(f"Congratulations, you've guesses it in only {len(guesses)} guessess!!")
+        print(f"Congratulations, you've guesses it in only {len(guesses)} guessess!!")  # noqa: E501
         break
 
     guesses.append(guess)
