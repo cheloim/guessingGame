@@ -1,4 +1,4 @@
-#Guessing Game Challenge
+# Guessing Game Challenge
 
 The game is simple: Guess the number, beat the machine.
 
